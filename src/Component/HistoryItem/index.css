@@ -1,0 +1,43 @@
+li {
+  margin-bottom: 2px;
+  padding: 8px 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+li > p {
+  width: 100px;
+}
+li > div {
+  margin-left: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-left: 10px;
+}
+li > div img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.title {
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 600;
+}
+div button {
+  display: block;
+  border-style: none;
+  background-color: #ffffff;
+}
+div button img {
+  width: 100%;
+}
+
+/* for small devices */
+
+@media screen and (max-width: 376px) {
+}
